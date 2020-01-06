@@ -9,11 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Background
 
-In 2017, China government started to restructure ways of transportation, with the aim of shifting freight transportation from road and highways to railway and waterage. And in 2018, goverment issued a formal plan to implement this policu. See <http://www.gov.cn/zhengce/content/2018-10/09/content_5328817.htm>.
-
-In this official document, the following provinces and province-level municipalities are referred as **key area** :北京, 天津, 河北, 辽宁, 内蒙古, 山东, 上海, 江苏, 浙江, 安徽, 陕西, 山西, 河南.
+In 2017, China government started to restructure ways of transportation, with the aim of shifting freight transportation from road and highways to railway and waterage. And in 2018, goverment issued a formal plan to implement this policy. See <http://www.gov.cn/zhengce/content/2018-10/09/content_5328817.htm>. In this official document, the following provinces and province-level municipalities are referred as **key area**: 北京, 天津, 河北, 辽宁, 内蒙古, 山东, 上海, 江苏, 浙江, 安徽, 陕西, 山西, 河南.
 
 ```{r}
 df <- read.csv(file = "D:/Data/transport_accu.csv")
